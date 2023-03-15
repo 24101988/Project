@@ -11,7 +11,8 @@ int main() {
         {"ab", true},
         {"bba", false},
         {"bb", true},
-        {"aa", true}
+        {"aa", true},
+        {"ba", false}
     };
     for (auto test : tests){
         if(solution(test.first) != test.second){
