@@ -10,7 +10,8 @@ int main() {
         {"aabb", true},
         {"ab", true},
         {"bba", false},
-        {"bb", true}
+        {"bb", true},
+        {"aa", true}
     };
     for (auto test : tests){
         if(solution(test.first) != test.second){
